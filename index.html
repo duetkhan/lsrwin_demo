@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSR Win - Virtual Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LSR Win</h1>
+        <p>Virtual Casino - Slot, Dice & Crash</p>
+    </header>
+
+    <main>
+        <div class="balance">
+            Balance: <span id="balance">10000</span> Coins
+            <button id="reset">Reset</button>
+        </div>
+
+        <section class="games">
+            <!-- Slot Game -->
+            <div class="game" id="slot-game">
+                <h2>🎰 Slot Game</h2>
+                <div class="slot-machine">
+                    <div class="reel" id="reel1">🍒</div>
+                    <div class="reel" id="reel2">🍋</div>
+                    <div class="reel" id="reel3">🍉</div>
+                </div>
+                <button class="spin-btn">SPIN 🎰</button>
+                <p class="message"></p>
+            </div>
+
+            <!-- Dice Game -->
+            <div class="game" id="dice-game">
+                <h2>🎲 Dice Game</h2>
+                <button class="dice-btn">Roll Dice 🎲</button>
+                <p class="dice-result"></p>
+            </div>
+
+            <!-- Crash Game -->
+            <div class="game" id="crash-game">
+                <h2>📈 Crash Game</h2>
+                <button class="crash-btn">Start Crash 🚀</button>
+                <p class="crash-result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 LSR Win - Virtual Casino
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
